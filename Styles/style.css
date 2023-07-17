@@ -96,9 +96,31 @@ li a{
 .cercle img{
     width: 400px;
     height: 400px;
-   
 }
 
+.market-list{
+    width: 80%;
+    height: 100px;
+    /* background-color: rebeccapurple; */
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid;
+    border-image: linear-gradient(to right,transparent,rgba(128, 128, 128, 0.438),transparent);
+    border-left: 1;
+    border-right: 1;
+    border-image-slice: 2;
+}
+.online-market{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+.online-market img{
+    width: 84px;
+    height: 25.284px;
+    margin-top: 30px;
+    padding: 5px;
+    justify-content: center;
+}
 
 
 
@@ -156,4 +178,11 @@ li a{
     margin-top: 40px;
     margin-left: 80px;
    }
+
+   .online-market{
+    grid-template-columns: repeat(4,1fr);
+   }
+   /* .online-market img{
+   margin-left: 120px;
+   } */
 }
