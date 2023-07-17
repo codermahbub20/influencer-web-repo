@@ -118,6 +118,7 @@ li a{
     .cercle{
         height: 350px;
         width: 350px;
+        margin-left: 30px;
     }
 
     .cercle img{
@@ -127,7 +128,7 @@ li a{
         margin-left: 45px;
     }
     ul li{
-        padding-left: 10px;
+        padding-left: 7px;
     }
    .primary-title{
     width: 400px;
@@ -146,12 +147,13 @@ li a{
    .primary-description{
     width: 321px;
     height: 65px;
+    margin-left: 20px;
     color: #3A3A3A;
     text-align: center;
     font-size: 14px;
    }
    .primary-btn{
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 80px;
    }
 }
